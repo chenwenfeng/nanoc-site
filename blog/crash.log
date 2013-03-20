@@ -1,4 +1,4 @@
-Crashlog created at 2013-03-20 16:23:49 +0800
+Crashlog created at 2013-03-20 16:28:16 +0800
 
 ===== MESSAGE:
 
@@ -20,7 +20,7 @@ Install the 'haml' gem using `gem install haml`.
   6. /home/chenwenfeng/.gem/ruby/1.9.1/gems/nanoc-3.6.2/lib/nanoc/base/result_data/item_rep.rb:344:in `filter'
   7. /home/chenwenfeng/.gem/ruby/1.9.1/gems/nanoc-3.6.2/lib/nanoc/base/compilation/item_rep_proxy.rb:47:in `filter'
   8. /home/chenwenfeng/.gem/ruby/1.9.1/gems/nanoc-3.6.2/lib/nanoc/base/compilation/rule_context.rb:55:in `filter'
-  9. ./Rules:24:in `block in load'
+  9. ./Rules:29:in `block in load'
   10. /home/chenwenfeng/.gem/ruby/1.9.1/gems/nanoc-3.6.2/lib/nanoc/base/compilation/rule.rb:68:in `instance_eval'
   11. /home/chenwenfeng/.gem/ruby/1.9.1/gems/nanoc-3.6.2/lib/nanoc/base/compilation/rule.rb:68:in `apply_to'
   12. /home/chenwenfeng/.gem/ruby/1.9.1/gems/nanoc-3.6.2/lib/nanoc/base/compilation/compiler.rb:383:in `compile_rep'
