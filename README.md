@@ -1,0 +1,4 @@
+nanoc-blog
+==========
+
+nanoc blog
