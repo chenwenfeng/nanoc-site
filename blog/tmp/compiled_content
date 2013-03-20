@@ -101,7 +101,7 @@ a:hover {
 }
 ;T:raw@
 :pre@
-I"/;T{;{	;I"Ç<!DOCTYPE HTML>
+I"/;T{;{	;I"Ê<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -114,6 +114,7 @@ I"/;T{;{	;I"Ç<!DOCTYPE HTML>
   <body>
     <div id="main">
       <h1>Blog</h1>
+
     </div>
     <div id="sidebar">
       <h2>Articles</h2>
@@ -124,13 +125,14 @@ I"/;T{;{	;I"Ç<!DOCTYPE HTML>
       </ul>
       <h2>Other</h2>
       <ul>
-        <li><a href="about">about</a></li>
+        <li><a href="/about/">about</a></li>
       </ul>
     </div>
   </body>
 </html>
-;T;	I"<h1>Blog</h1>;T;
-I"<h1>Blog</h1>;T:	post@I"/about/;T{;{	;I"É<!DOCTYPE HTML>
+;T;	I"%h1 Blog;T;
+I"<h1>Blog</h1>
+;T:	post@I"/about/;T{;{	;I"Ï<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -142,7 +144,7 @@ I"<h1>Blog</h1>;T:	post@I"/about/;T{;{	;I"É<!DOCTYPE HTML>
   </head>
   <body>
     <div id="main">
-      Hi, I'm about!
+      %h1 Hi, I'm about!
     </div>
     <div id="sidebar">
       <h2>Articles</h2>
@@ -153,10 +155,10 @@ I"<h1>Blog</h1>;T:	post@I"/about/;T{;{	;I"É<!DOCTYPE HTML>
       </ul>
       <h2>Other</h2>
       <ul>
-        <li><a href="about">about</a></li>
+        <li><a href="/about/">about</a></li>
       </ul>
     </div>
   </body>
 </html>
-;T;	I"Hi, I'm about!;T;
-I"Hi, I'm about!;T;@:versioni
+;T;	I"%h1 Hi, I'm about!;T;
+I"%h1 Hi, I'm about!;T;@:versioni

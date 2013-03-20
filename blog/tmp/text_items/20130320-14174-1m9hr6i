@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Blog Site - About</title>
+    <title>Blog Site - Home</title>
     <link rel="stylesheet" href="/style.css">
 
     <!-- you don't need to keep this, but it's cool for stats! -->
@@ -10,7 +10,7 @@
   </head>
   <body>
     <div id="main">
-      %h1 Hi, I'm about!
+      <h1>Blog</h1>
     </div>
     <div id="sidebar">
       <h2>Articles</h2>
@@ -21,7 +21,7 @@
       </ul>
       <h2>Other</h2>
       <ul>
-        <li><a href="/about/">about</a></li>
+        <li><a href="/about">about</a></li>
       </ul>
     </div>
   </body>
