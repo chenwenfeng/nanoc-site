@@ -3,7 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>Blog Site - <%= @item[:title] %></title>
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/assets/css/reset.css">
+    <link rel="stylesheet" href="/assets/css/layout.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
 
     <!-- you don't need to keep this, but it's cool for stats! -->
     <meta name="generator" content="nanoc <%= Nanoc::VERSION %>">
@@ -13,11 +15,11 @@
       <%= yield %>
     </div>
     <div id="sidebar">
-      <h2>Articles</h2>
+      <h2>Blog</h2>
       <ul>
-        <li><a href="http://nanoc.ws/docs/">article1</a></li>
-        <li><a href="http://nanoc.ws/docs/">article2</a></li>
-        <li><a href="http://nanoc.ws/docs/">article3</a></li>
+        <li><a href="/blog/t1/">T1</a></li>
+        <li><a href="/blog/t2/">T2</a></li>
+        <li><a href="/blog/t3/">T3</a></li>
       </ul>
       <h2>Other</h2>
       <ul>
