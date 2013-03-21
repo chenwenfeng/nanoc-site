@@ -90,3 +90,11 @@ checks:
     # E.g.:
     #   exclude: ['^/server_status']
     exclude: []
+
+#Deploy
+deploy:
+  default:
+    dst: "blog-wenfeng.rhcloud.com:app-root/data/html"
+
+# Disqus
+disqus_shortname: blog-wenfeng
