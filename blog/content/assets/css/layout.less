@@ -1,101 +1,53 @@
-* {
-  margin: 0;
-  padding: 0;
-
-  font-family: Georgia, Palatino, Times, 'Times New Roman', sans-serif;
-}
-
+@width: 1024px;
+@height: 768px;
+@sidebar-width: 200px;
+@main-width: @width - @sidebar-width - 42px - 40px;
 body {
-  background: #fff;
+  font-family: "Whitney SSm A", "Whitney SSm B", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  width: @width;
+  margin: 0 auto;
+  min-height: @height;
 }
 
-a {
-  text-decoration: none;
+#header {
+  height: 50px;
 }
+#footer {
 
-a:link,
-a:visited {
-  color: #f30;
-}
-
-a:hover {
-  color: #f90;
 }
 
 #main {
-  position: absolute;
-
-  top: 40px;
-  left: 280px;
-
-  width: 500px;
+  width: @main-width;
+  padding: 20px;
+  display: inline-block;
+  vertical-align: top;
 }
 
-#main h1 {
-  font-size: 40px;
-  font-weight: normal;
-
-  line-height: 40px;
-
-  letter-spacing: -1px;
-}
-
-#main p {
-  margin: 20px 0;
-
-  font-size: 15px;
-
-  line-height: 20px;
-}
-
-#main ul, #main ol {
-  margin: 20px;
-}
-
-#main li {
-  font-size: 15px;
-
-  line-height: 20px;
-}
-
-#main ul li {
-  list-style-type: square;
-}
 
 #sidebar {
-  position: absolute;
-
-  top: 40px;
-  left: 20px;
-  width: 200px;
-
-  padding: 20px 20px 0 0;
-
-  border-right: 1px solid #ccc;
-
+  width: @sidebar-width;
+  display: inline-block;
+  vertical-align: top;
+  padding: 20px;
+  border-right: 2px solid #CCC;
   text-align: right;
-}
-
-#sidebar h2 {
-  text-transform: uppercase;
-
-  font-size: 13px;
-
-  color: #333;
-
-  letter-spacing: 1px;
-
-  line-height: 20px;
-}
-
-#sidebar ul {
-  list-style-type: none;
-
-  margin: 20px 0;
-}
-
-#sidebar li {
-  font-size: 14px;
-
-  line-height: 20px;
+  h2 {
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #333;
+    letter-spacing: 1px;
+    line-height: 20px;
+  }
+  ul {
+    list-style-type: none;
+    margin: 20px 0;
+  }
+  li {
+    font-size: 14px;
+    line-height: 20px;
+    a&:hover {
+      color: #498CF5;
+    }
+  }
 }

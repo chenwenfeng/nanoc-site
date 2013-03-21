@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Blog Site - <%= @item[:title] %></title>
     <link rel="stylesheet" href="/assets/css/reset.css">
     <link rel="stylesheet" href="/assets/css/layout.css">
@@ -11,9 +12,8 @@
     <meta name="generator" content="nanoc <%= Nanoc::VERSION %>">
   </head>
   <body>
-    <div id="main">
-      <%= yield %>
-    </div>
+    <!--[if lt IE 9]><div style="position:fixed;top:0;left:0;right:0;bottom:0;background:black;z-index:999999999;text-align:center;"><a href="http://godarkforie.org/upgrade?lang=zh-cn"><img src="http://godarkforie.org/splash/zh-cn.jpg" alt="您正在使用旧版本的Internet Explorer浏览器" /></a></div><![endif]-->
+    <header id="header"></header>
     <div id="sidebar">
       <h2>Blog</h2>
       <ul>
@@ -25,6 +25,11 @@
       <ul>
         <li><a href="/about/">about</a></li>
       </ul>
+    </div><div id="main">
+      <%= yield %>
     </div>
+    <footer id="footer"></footer>
   </body>
+  <script type="text/javascript" sr="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <script type="text/javascript" src="https://cdn.firebase.com/v0/firebase.js"></script>
 </html>
